@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "ytmusicfabric",
+	"version": "${version}",
+	"name": "YT Music Fabric",
+	"description": "Mod Fabric client-side phát nhạc từ link YouTube bằng yt-dlp và ffmpeg.",
+	"authors": [
+		"Codex"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"vn.ytmusicfabric.client.YtMusicFabricClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "${minecraft_version}",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
