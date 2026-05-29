@@ -38,3 +38,9 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+# local artifacts
+dist/
+crash.log
+0.16.10
+0.19.2
